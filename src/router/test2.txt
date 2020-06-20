@@ -1,0 +1,7 @@
+console.log(['Owner','Creator','Mod', 'Developer', 'Admin'].indexOf(user.rank) == -1)
+        console.log(user.rank)
+        if (to.name == "addban" && ['Owner','Creator','Mod', 'Developer', 'Admin'].indexOf(user.rank) == -1){//if user is allowed
+          next({name: "home"})
+        }else{ //User is of rank
+          next()
+        }
