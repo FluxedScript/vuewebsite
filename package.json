@@ -13,7 +13,7 @@
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "sweetalert": "^2.1.2",
     "vue": "^2.6.11",
     "vue-jwt-decode": "^0.1.0",
